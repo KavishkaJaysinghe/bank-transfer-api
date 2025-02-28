@@ -99,7 +99,8 @@ Clone the repository in IntelliJ IDEA and run the application.
 <p align="center">
     <img src="https://github.com/KavishkaJaysinghe/bank-transfer-api/blob/main/img/Screenshot%202025-02-28%20165909.png" width="60%">
 </p>
-## Notes
+
+### Notes
 - The database is reset every time the application restarts.
 - Sample data is preloaded in the database for testing.
 
