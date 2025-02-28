@@ -52,6 +52,9 @@ This is a RESTful API for transferring money between accounts using Java Spring 
 - Unit tests for successful transfer
 - Unit tests for account not found scenario
 - Unit tests for insufficient balance scenario
+<p align="center">
+    <img src="https://github.com/KavishkaJaysinghe/bank-transfer-api/blob/main/img/Screenshot%202025-02-28%20155025.png" width="60%">
+</p>
 
 ## Postman Screenshots
 <p align="center">
@@ -73,5 +76,7 @@ This is a RESTful API for transferring money between accounts using Java Spring 
 - Sample data is preloaded in the database for testing.
 
 ## Contact
-For any issues, contact the developer at [your email or GitHub].
+contact the developer at,
+📧 Email: [kavishkajaye@gmail.com](mailto:kavishkajaye@gmail.com)  
+💼 LinkedIn: [Kavishka Jayasinghe](https://www.linkedin.com/in/kavishka-jayasinghe)
 
