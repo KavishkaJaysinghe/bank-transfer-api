@@ -91,7 +91,8 @@ This project requires **Java 17** to run. If you have a newer Java version (such
 ### **Check Your Java Version, Before running the application.**  
 
 3. Use Postman to test the transfer API.
-```http://localhost:12345/api/transfers
+```http
+http://localhost:12345/api/transfers
 ```
 ## OR  
 Clone the repository in IntelliJ IDEA and run the application. 
