@@ -88,7 +88,7 @@ public void addMockAccounts() {
 3. Use Postman to test the transfer API.
 
 ## Notes
-- The H2 database is reset every time the application restarts.
+- The database is reset every time the application restarts.
 - Sample data is preloaded in the database for testing.
 
 ## Contact
