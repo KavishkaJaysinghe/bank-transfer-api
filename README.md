@@ -88,12 +88,17 @@ public void addMockAccounts() {
    ## Prerequisites  
 This project requires **Java 17** to run. If you have a newer Java version (such as Java 23), you may encounter compatibility issues with the Maven compiler plugin.  
 
-### **Check Your Java Version**  
-```
-Before running the application.
-```
-3. Use Postman to test the transfer API.
+### **Check Your Java Version, Before running the application.**  
 
+3. Use Postman to test the transfer API.
+```http://localhost:12345/api/transfers
+```
+## OR  
+Clone the repository in IntelliJ IDEA and run the application. 
+##
+<p align="center">
+    <img src="https://github.com/KavishkaJaysinghe/bank-transfer-api/blob/main/img/Screenshot%202025-02-28%20165909.png" width="60%">
+</p>
 ## Notes
 - The database is reset every time the application restarts.
 - Sample data is preloaded in the database for testing.
