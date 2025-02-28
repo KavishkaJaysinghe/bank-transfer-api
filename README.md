@@ -55,9 +55,9 @@ This is a RESTful API for transferring money between accounts using Java Spring 
 
 ## Postman Screenshots
 <p align="center">
-    <img src="img/success.png" width="30%">
-    <img src="img/account_not_found.png" width="30%">
-    <img src="img/insufficient_balance.png" width="30%">
+    <img src="https://github.com/KavishkaJaysinghe/bank-transfer-api/blob/main/img/Screenshot%202025-02-28%20143733.png" width="30%">
+    <img src="https://github.com/KavishkaJaysinghe/bank-transfer-api/blob/main/img/Screenshot%202025-02-28%20143934.png" width="30%">
+    <img src="https://github.com/KavishkaJaysinghe/bank-transfer-api/blob/main/img/Screenshot%202025-02-28%20144032.png" width="30%">
 </p>
 
 ## Setup Instructions
