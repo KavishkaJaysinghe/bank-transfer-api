@@ -1,11 +1,10 @@
 # Account Transfer API
 
-This is a RESTful API for transferring money between accounts using Java Spring Boot (Java 17) with an H2 in-memory database.
+This is a RESTful API for transferring money between accounts using Java Spring Boot (Java 17).
 
 ## Technologies Used
 - Java 17
 - Spring Boot
-- H2 In-Memory Database
 - JUnit for Testing
 - Postman for API Testing
 
@@ -13,12 +12,22 @@ This is a RESTful API for transferring money between accounts using Java Spring 
 ### Transfer Money
 **Endpoint:** `POST /api/transfer`
 
+## 🏦 Mock Accounts
+
+The application initializes with the following mock accounts:
+
+```java
+public void addMockAccounts() {
+    accountDatabase.put("12345", new Account("12345", 10000.00));
+    accountDatabase.put("67890", new Account("67890", 15000.00));
+}
+```
 **Request Body:**
 ```json
 {
   "sourceAccountNumber": "67890",
   "destinationAccountNumber": "12345",
-  "amount": 200.00
+  "amount": "XXX.XX"
 }
 ```
 
@@ -28,23 +37,30 @@ This is a RESTful API for transferring money between accounts using Java Spring 
 {
   "message": "Transfer successful",
   "transactionId": "abc123",
-  "sourceAccount": "67890",
-  "destinationAccount": "12345",
-  "transferredAmount": 200.00
+  "sourceAccount": "XXXXXX",
+  "sourceBalance": "XXXXXX",
+  "destinationAccount": "XXXXXX",
+  "destinationBalance": "XXXXX"
 }
 ```
 
 2. **Account Not Found:**
 ```json
 {
-  "error": "Account not found"
+  "error": "Source account not found: XXXX"
+}
+```
+**OR**
+```json
+{
+  "error": "destinationAccount account not found: XXXX"
 }
 ```
 
 3. **Insufficient Balance:**
 ```json
 {
-  "error": "Insufficient balance"
+  "error": "Insufficient funds"
 }
 ```
 
