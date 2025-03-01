@@ -36,10 +36,9 @@ public void addMockAccounts() {
 ```json
 {
   "message": "Transfer successful",
-  "transactionId": "abc123",
-  "sourceAccount": "XXXXXX",
+  "sourceAccountNumber": "XXXXXX",
   "sourceBalance": "XXXXXX",
-  "destinationAccount": "XXXXXX",
+  "destinationAccountNumber": "XXXXXX",
   "destinationBalance": "XXXXX"
 }
 ```
